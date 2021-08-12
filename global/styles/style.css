@@ -79,17 +79,31 @@ main .item span {
 }
 
 /* footer */
-footer {
+footer .social {
   display: grid;
 }
 
 footer .social ul {
   display: flex;
+  text-align: center;
 }
 
 footer .social ul li {
+  padding: 1rem;
+  text-align: center;
+}
+footer .social ul li a i {
+  padding: 2rem;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+
+footer .social ul li a i p {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
+  font-size: 1.333rem;
+  align-items: center;
+  margin-left: 2rem;
 }
 
 footer .legal {
