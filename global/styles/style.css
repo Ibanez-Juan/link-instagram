@@ -85,25 +85,23 @@ footer .social {
 
 footer .social ul {
   display: flex;
-  text-align: center;
 }
 
 footer .social ul li {
-  padding: 1rem;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
 footer .social ul li a i {
-  padding: 2rem;
-  font-size: 1.5rem;
-  justify-content: space-between;
+  font-size: 1rem;
+  padding-left: 2rem;
 }
 
 footer .social ul li a i p {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  font-size: 1.333rem;
+  padding-left: 2rem;
+  font-size: 1rem;
   align-items: center;
-  margin-left: 2rem;
 }
 
 footer .legal {
