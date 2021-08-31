@@ -93,6 +93,7 @@ main .item span {
 
 footer .social {
   display: grid;
+  margin-top: 1.5rem;
 }
 
 footer .social ul {
@@ -120,10 +121,10 @@ footer .social ul li a i p {
 }
 
 footer .legal {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 footer .legal p {
-  margin-top: 1rem;
+  margin-top: 0.7rem;
   text-align: center;
   margin-bottom: 2rem;
   color: #32196e;
