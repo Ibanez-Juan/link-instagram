@@ -11,6 +11,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #32196e;
 }
 
 img {
@@ -44,17 +45,21 @@ header .wrapper img {
   height: 4.5rem;
   object-fit: cover;
   clip-path: circle();
+  justify-content: center;
 }
 
 header .wrapper h2 {
+  justify-content: center;
   margin-top: 0.5rem;
   text-align: center;
+  color: #32196e;
 }
 
 header .wrapper a {
   margin-top: 0.5rem;
   text-align: center;
   margin-bottom: 1.5rem;
+  justify-content: center;
 }
 
 /*Main*/
@@ -71,6 +76,7 @@ main .item a img {
   align-items: center;
   justify-content: center;
   margin-bottom: 0.5rem;
+  clip-path: circle();
 }
 
 main .item span {
@@ -84,12 +90,16 @@ main .item span {
 }
 
 /* footer */
+
 footer .social {
   display: grid;
 }
 
 footer .social ul {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -1.5rem;
 }
 
 footer .social ul li {
@@ -100,11 +110,11 @@ footer .social ul li {
 
 footer .social ul li a i {
   font-size: 1rem;
-  padding-left: 2rem;
+  padding-left: 1.762rem;
 }
 
 footer .social ul li a i p {
-  padding-left: 2rem;
+  padding-left: 1.762rem;
   font-size: 1rem;
   align-items: center;
 }
@@ -121,4 +131,5 @@ footer .legal p {
   margin-top: 1rem;
   text-align: center;
   margin-bottom: 2rem;
+  color: #32196e;
 }
